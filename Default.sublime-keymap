@@ -13,7 +13,7 @@
     {"keys": ["tab"], "command": "ibus_key", "args": {"key": "tab", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
     {"keys": ["enter"], "command": "ibus_key", "args": {"key": "enter", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
     {"keys": ["pause"], "command": "ibus_key", "args": {"key": "pause", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
-    {"keys": ["escape"], "command": "ibus_key", "args": {"key": "escape", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
+    {"keys": ["escape"], "command": "ibus_key", "args": {"key": "escape", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": true}]},
     {"keys": ["space"], "command": "ibus_key", "args": {"key": "space", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
     {"keys": ["keypad0"], "command": "ibus_key", "args": {"key": "keypad0", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
     {"keys": ["keypad1"], "command": "ibus_key", "args": {"key": "keypad1", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
@@ -160,6 +160,7 @@
 
     {"keys": ["ctrl+m"], "command": "ibus_key", "args": {"key": "henkan", "alt": false, "ctrl": false, "shift": false, "super": false}, "context": [{"key": "setting.ibus_mode"}, {"key": "setting.command_mode", "operand": false}]},
     { "keys": ["ctrl+\\"], "command": "ibus_toggle" },
+    { "keys": ["shift+space"], "command": "ibus_toggle" },
     { "keys": ["alt+z"], "command": "ibus_cycle" }
 
 ]

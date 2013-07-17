@@ -58,7 +58,9 @@ Ubuntu 12.10 では、 iBus と ibus-anthy がデフォルトでインストー�
 
 使用方法
 ========
-ctrl+\\ を押すことで、iBusのON/OFFを切り替えます。ONの状態で日本語入力可能になります。後は通常の iBus による入力を行えます。
+ctrl+\\ を押すことで、iBusのON/OFFを切り替えます。ONの状態で日本語入力可能になります。後は通常の iBus による入力を行えます。  
+shift+spaceによる切り替えを追記しました。  また、vi配列の際にescapeキーでコマンドモードに抜けるようにしました。
+Mozc自体の設定は[こちら](http://qiita.com/iberianpig@github/items/0cc4269b83f675ccc54b)を参考にしてください。　　
 
 特徴
 ====
